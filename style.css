@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cta-color: #3671E9;
+    --primary-color: #0D0D2B;
+    --secondary-color: #2B076E;
+    --white: #fff;
+    --font-normal: 1rem;
+    --section-header: 2.5rem;
+    --hero-header: 4rem;
+    --sub-section-header: 2rem;
+    --footer-header: 1.25rem;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
